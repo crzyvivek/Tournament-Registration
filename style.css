@@ -1,0 +1,86 @@
+.bottom-text h1,
+.bottom-text h2,
+.bottom-text h3,
+.bottom-text h4,
+.bottom-text p {
+  display: inline-block;  /* Background sirf text tak */
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 6px 0;
+}
+
+/* Background aur text colors */
+.bottom-text h1 {
+  background-color: #fce4ec;
+  color: red;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.bottom-text h2 {
+  background-color: #e1f5fe;
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.bottom-text h3 {
+  background-color: #fff9c4;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bottom-text h4 {
+  background-color: #f3e5f5;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bottom-text p {
+  background-color: #e0f2f1;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  margin-top: 20px;
+}
+
+#registerBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#registerBtn {
+  display: block;
+  margin: 20px auto; /* upar niche 20px gap aur left-right auto */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#registerBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 75, 43, 0.6);
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+#registerBtn:hover {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 75, 43, 0.8);
+}
